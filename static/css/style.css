@@ -1,0 +1,512 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+  background-color: #474747;
+}
+
+nav {
+background-color: #f7f9fd;
+display: flex;
+justify-content: space-around;
+}
+
+ul {
+    list-style-type: none;
+    margin: 30;
+    padding: 15;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.oui {
+    display: flex;
+    align-items: center;
+}
+
+.oui a {
+    color: rgb(60, 60, 60);
+}
+
+button.bouton_cartes {
+  background-color: #00000000;
+  border: none;
+  transition: transform 0.3s;
+  font-size: 1em;
+  padding: 0;
+}
+
+button.bouton_cartes:hover {
+  transform: scale(1.1);
+}
+
+.titre a {
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.tout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0 50px 0;
+    width: 130vh;
+}
+
+.content img {
+    width: 400px;
+}
+
+.content .text {
+    width: 450px;
+}
+
+.projets img {
+    width: 500px;
+}
+
+.titreprojets {
+    display: flex;
+    justify-content: center;
+}
+
+.projets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 16px;
+    margin: 0 25px 25px 0;
+    width: 350px;
+    max-width: 100%;
+    min-height: 350px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-image: url(https://cdn.discordapp.com/attachments/1196414301116841995/1201232474613755924/pentesting.jpg?ex=65c911eb&is=65b69ceb&hm=cd3087ee6718a16bbcfb2d1db2d6a7cf763caad3fc24725fa86b9d303ea527d1&);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .cardsurf {
+    border-radius: 16px;
+    margin: 0 25px 25px 25px;
+    width: 350px;
+    max-width: 100%;
+    min-height: 350px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-image: url(https://cdn.discordapp.com/attachments/1196414301116841995/1201297106359566346/surf.jpg?ex=65c94e1d&is=65b6d91d&hm=2f1f840c646a598ef69ca714d362a9c3ae0eff02a1615a68bffe2cf06ad66c04&);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .cardski {
+    border-radius: 16px;
+    margin: 0 25px 25px 25px;
+    width: 350px;
+    max-width: 100%;
+    min-height: 350px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-image: url(https://cdn.discordapp.com/attachments/1196414301116841995/1201310066519846953/ade7250e-706f-4937-970b-c4de14a8af1c.jpg?ex=65c95a2f&is=65b6e52f&hm=0c5d4602c1e9921704f4948521737d870ec388a270c15210c9fa4aab38404fe0&);
+    background-size: cover;
+    background-position: center;
+  }
+
+.cardweb {
+  border-radius: 16px;
+  margin: 25px 25px 50px 25px;
+  width: 350px;
+  max-width: 100%;
+  min-height: 350px;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-image: url(https://cdn.discordapp.com/attachments/1196414301116841995/1201457539569696849/a76e3c37-a978-4d1a-8c26-129f525761ce.jpg?ex=65c9e387&is=65b76e87&hm=6f838bf73510eb787dee56fbb732dd5d65e02870d7255bb7a4834115539ef49e&);
+  background-size: cover;
+  background-position: center;
+}
+
+.cardfoot {
+  border-radius: 16px;
+  margin: 0 25px 25px 25px;
+  width: 350px;
+  max-width: 100%;
+  min-height: 350px;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-image: url(https://cdn.discordapp.com/attachments/1196414301116841995/1201463558601441352/12e29703-bb50-4225-b14e-a4d6f4a151a6.jpg?ex=65c9e922&is=65b77422&hm=603bba31386c0b3ec126bd4fd284fc275ab261c515247eedc58c3a37115070bb&);
+  background-size: cover;
+  background-position: center;
+}
+
+.cardjeux {
+  border-radius: 16px;
+  margin: 25px 25px 50px 25px;
+  width: 350px;
+  max-width: 100%;
+  min-height: 350px;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-image: url(https://cdn.discordapp.com/attachments/1196414301116841995/1201468666110279720/aced9123-5507-41c1-ba92-e7a17bf13f47.jpg?ex=65c9ede4&is=65b778e4&hm=2201b89c2fd994974463618cf81d0853370e169ba69fdeab14f803344c5da71d&);
+  background-size: cover;
+  background-position: center;
+}
+
+  .info {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    transform: translateY(100%)
+      translateY(-78px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+  }
+
+  .infosurf {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    transform: translateY(100%)
+      translateY(-78px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+  }
+
+  .infoski {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    transform: translateY(100%)
+      translateY(-78px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+  }
+
+  .infofoot {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    transform: translateY(100%)
+      translateY(-78px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+  }
+
+  .infoweb {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    transform: translateY(100%)
+      translateY(-78px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+  }
+
+  .infojeux {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    transform: translateY(100%)
+      translateY(-78px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+  }
+
+.info:before {
+  z-index: -1;
+  display: block; 
+  position: absolute;
+  content: ' ';
+  width: 100%; height: 100%;
+  overflow: hidden;
+  background-image: url(https://cdn.discordapp.com/attachments/1196414301116841995/1201232474613755924/pentesting.jpg?ex=65c911eb&is=65b69ceb&hm=cd3087ee6718a16bbcfb2d1db2d6a7cf763caad3fc24725fa86b9d303ea527d1&);
+  filter: blur(10px);
+  background-size: cover;
+  opacity: 0.25;
+  transform: translateY(-100%)
+    translateY(88px)
+    translateZ(0);
+  transition: transform 0.3s ease-out;
+}
+
+.infosurf:before {
+  z-index: -1;
+  display: block; 
+  position: absolute;
+  content: ' ';
+  width: 100%; height: 100%;
+  overflow: hidden;
+  background-image: url(https://cdn.discordapp.com/attachments/1196414301116841995/1201297106359566346/surf.jpg?ex=65c94e1d&is=65b6d91d&hm=2f1f840c646a598ef69ca714d362a9c3ae0eff02a1615a68bffe2cf06ad66c04&);
+  filter: blur(10px);
+  background-size: cover;
+  opacity: 0.25;
+  transform: translateY(-100%)
+    translateY(88px)
+    translateZ(0);
+  transition: transform 0.3s ease-out;
+}
+
+.infoski:before {
+  z-index: -1;
+  display: block; 
+  position: absolute;
+  content: ' ';
+  width: 100%; height: 100%;
+  overflow: hidden;
+  background-image: url(https://cdn.discordapp.com/attachments/1196414301116841995/1201310066519846953/ade7250e-706f-4937-970b-c4de14a8af1c.jpg?ex=65c95a2f&is=65b6e52f&hm=0c5d4602c1e9921704f4948521737d870ec388a270c15210c9fa4aab38404fe0&);
+  filter: blur(10px);
+  background-size: cover;
+  opacity: 0.25;
+  transform: translateY(-100%)
+    translateY(88px)
+    translateZ(0);
+  transition: transform 0.3s ease-out;
+}
+
+.infofoot:before {
+  z-index: -1;
+  display: block; 
+  position: absolute;
+  content: ' ';
+  width: 100%; height: 100%;
+  overflow: hidden;
+  background-image: url(https://cdn.discordapp.com/attachments/1196414301116841995/1201463558601441352/12e29703-bb50-4225-b14e-a4d6f4a151a6.jpg?ex=65c9e922&is=65b77422&hm=603bba31386c0b3ec126bd4fd284fc275ab261c515247eedc58c3a37115070bb&);
+  filter: blur(10px);
+  background-size: cover;
+  opacity: 0.25;
+  transform: translateY(-100%)
+    translateY(88px)
+    translateZ(0);
+  transition: transform 0.3s ease-out;
+}
+
+.infoweb:before {
+  z-index: -1;
+  display: block; 
+  position: absolute;
+  content: ' ';
+  width: 100%; height: 100%;
+  overflow: hidden;
+  background-image: url(https://cdn.discordapp.com/attachments/1196414301116841995/1201457539569696849/a76e3c37-a978-4d1a-8c26-129f525761ce.jpg?ex=65c9e387&is=65b76e87&hm=6f838bf73510eb787dee56fbb732dd5d65e02870d7255bb7a4834115539ef49e&);
+  filter: blur(10px);
+  background-size: cover;
+  opacity: 0.25;
+  transform: translateY(-100%)
+    translateY(88px)
+    translateZ(0);
+  transition: transform 0.3s ease-out;
+}
+
+.infojeux:before {
+  z-index: -1;
+  display: block; 
+  position: absolute;
+  content: ' ';
+  width: 100%; height: 100%;
+  overflow: hidden;
+  background-image: url(https://cdn.discordapp.com/attachments/1196414301116841995/1201468666110279720/aced9123-5507-41c1-ba92-e7a17bf13f47.jpg?ex=65c9ede4&is=65b778e4&hm=2201b89c2fd994974463618cf81d0853370e169ba69fdeab14f803344c5da71d&);
+  filter: blur(10px);
+  background-size: cover;
+  opacity: 0.25;
+  transform: translateY(-100%)
+    translateY(88px)
+    translateZ(0);
+  transition: transform 0.3s ease-out;
+}
+
+.title {
+  margin: 0;
+  padding: 24px;
+  font-size: 27px;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.87);
+}
+  
+.description {
+  margin: 0;
+  padding: 0 24px 24px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.card:hover .info,
+.card:hover .info:before {
+  transform: translateY(0) translateZ(0);
+}
+
+.cardsurf:hover .infosurf,
+.cardsurf:hover .infosurf:before {
+  transform: translateY(0) translateZ(0);
+}
+
+.cardski:hover .infoski,
+.cardski:hover .infoski:before {
+  transform: translateY(0) translateZ(0);
+}
+
+.cardfoot:hover .infofoot,
+.cardfoot:hover .infofoot:before {
+  transform: translateY(0) translateZ(0);
+}
+
+.cardweb:hover .infoweb,
+.cardweb:hover .infoweb:before {
+  transform: translateY(0) translateZ(0);
+}
+
+.cardjeux:hover .infojeux,
+.cardjeux:hover .infojeux:before {
+  transform: translateY(0) translateZ(0);
+}
+
+.lien {
+  text-decoration: underline;
+  color: rgb(81, 69, 255);
+  transition: transform 0.3s;
+}
+
+.lien:hover {
+  color: rgb(81, 44, 245);
+  transform: scale(1.1);
+}
+
+.ligne {
+  display: flex;
+  justify-content: center;
+}
+
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.chat {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 300px;
+  overflow-y: scroll;
+  border-radius: 5px;
+}
+
+.user-message {
+  background-color: #f2f2f2;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.bot-message {
+  background-color: #e6f7ff;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+#chat-form {
+  display: flex;
+  margin-top: 10px;
+}
+
+#user-input {
+  flex: 1;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0.5px solid #9c9c9c;
+}
+
+button.envoi {
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #abdff7;
+  border: 0.5px solid #7dbaff;
+}
+
+button.envoi:hover {
+  background-color: #56aad1;
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+/*debut*/
+
+.image-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text-overlay {
+  position: absolute;
+  left: 20px;
+  width: 150px;
+  display: none; /* Le texte est initialement caché */
+  color: #000000; /* Couleur du texte, ajustez selon vos préférences */
+  text-align: center;
+  padding: 20px;
+}
+
+.image-container:hover .text-overlay {
+  display: block; /* Le texte devient visible lors du survol */
+}
+
+/*fin*/
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.projet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pentest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video {
+  width: 960px;
+  height: 540px;
+}
+
+.video iframe {
+  width: 100%;
+  height: 100%;
+}

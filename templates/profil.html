@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="titre">
+            <ul><a href="/">Damien</a></ul>
+        </div>
+        <div class="oui">
+            <ul><a href="/profil">Mon Profil</a></ul>
+            <ul><a href="#">Portfolio</a></ul>
+            <ul><a href="/projets">Projets</a></ul>
+            <ul><a href="/passions">Passions</a></ul>
+            <ul><a href="#">Contact</a></ul>
+        </div>
+    </nav>
+    <div class="tout">
+        <div class="content">
+            <div class="text">
+                <h1>Mon profil</h1>
+                <p>Je m'appelle Damien, j'ai 19 ans et je suis actuelement en BUT Réseaux et Télécommunications à Roanne.</p>
+            </div>
+            <div class="photo">
+                <img src="{{ url_for('static', filename='images/pdp.jpg') }}" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
